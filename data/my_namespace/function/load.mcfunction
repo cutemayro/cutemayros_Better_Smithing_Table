@@ -1,0 +1,2 @@
+tellraw @a [{"text":"Thank You For Using ", "color":"green"}, {"text":"[cutemayro's Better Smithing Table]", "color":"aqua"}]
+tellraw @a [{"text":"[cutemayro's Better Smithing Table]", "color":"aqua"}, {"text":" has loaded sucsesfully!", "color":"green"}]

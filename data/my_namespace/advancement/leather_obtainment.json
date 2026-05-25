@@ -1,0 +1,24 @@
+{
+  "parent": "my_namespace:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": "Where It All Begins...",
+    "description": "Obtain Leather And Logs From Any Source",
+    "frame": "task"
+  },
+  "criteria": {
+    "has_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": "minecraft:leather"}
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "my_namespace:armor/gold_armor",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": "DIAMONDS",
+    "description": "Upgrade Any Of Your Gold Armor To Diamond",
+    "frame": "challenge"
+  },
+  "criteria":{
+    "upgrade_diamond_helmet": {
+        "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/armor/gold_to_diamond/helmet"
+        }
+    },
+    "upgrade_diamond_chestplate": {
+        "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/armor/gold_to_diamond/chestplate"
+        } 
+    },
+    "upgrade_diamond_leggings":{
+        "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/armor/gold_to_diamond/leggings"
+        }
+    },
+    "upgrade_diamond_boots": {
+       "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/armor/gold_to_diamond/boots"
+        } 
+    } 
+  },
+  "requirements":[["upgrade_diamond_helmet","upgrade_diamond_chestplate","upgrade_diamond_leggings","upgrade_diamond_boots"]],
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "my_namespace:armor/horse/iron_horse",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_horse_armor"
+    },
+    "title": "SHINY HORSE",
+    "description": "Upgrade Your Iron Horse Armor To Gold",
+    "frame": "goal",
+    "hidden": true
+  },
+  "criteria": {
+    "upgrade_gold_horse": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "my_namespace:smithing/armor/horse_armor/iron_to_gold"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

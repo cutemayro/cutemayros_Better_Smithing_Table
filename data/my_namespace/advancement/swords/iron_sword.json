@@ -1,0 +1,22 @@
+{
+  "parent": "my_namespace:swords/stone_sword",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "Sharper Blades",
+    "description": "Upgrade Your Stone Sword To Iron",
+    "frame": "task"
+  },
+  "criteria": {
+    "upgrade_iron_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "my_namespace:smithing/tools/swords/stone_to_iron"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 40
+  }
+}

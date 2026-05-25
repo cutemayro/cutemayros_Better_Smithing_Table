@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {"id" : "smithing_table"},
+        "title": "The World Of Smithing!",
+        "description": "Obtain A Smithing Table",
+        "background": "minecraft:textures/block/stone.png"
+    },
+    "criteria": {
+        "has_smithing_table" : {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [{"items": "smithing_table"}]
+            }
+        }
+    }
+}

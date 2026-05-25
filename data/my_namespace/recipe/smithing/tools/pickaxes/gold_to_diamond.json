@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "diamond",
+  "base": "golden_pickaxe",
+  "addition": "diamond",
+  "result": {
+    "id": "diamond_pickaxe"
+  }
+}

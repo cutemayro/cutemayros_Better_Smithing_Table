@@ -1,0 +1,3 @@
+execute as @a[advancements={my_namespace:tools/diamond_tools=true,my_namespace:swords/diamond_sword=true,my_namespace:armor/diamond_armor=true}] run advancement grant @s only my_namespace:goodbye_message/goodbye1
+execute as @a[advancements={my_namespace:tools/diamond_tools=true,my_namespace:swords/diamond_sword=true,my_namespace:armor/diamond_armor=true}] run advancement grant @s only my_namespace:goodbye_message/goodbye2
+execute as @a[advancements={my_namespace:tools/diamond_tools=true,my_namespace:swords/diamond_sword=true,my_namespace:armor/diamond_armor=true}] run advancement grant @s only my_namespace:goodbye_message/goodbye3
