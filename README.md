@@ -1,4 +1,4 @@
-# cutemayro's Better Smithing Table
+# cutemayro's Better Smithing Table (Datapack For Minecraft)
 
 **Adds A Survival Friendly Weapon, Tools, And Armor Upgrade System Using The Smithing Table**
 
