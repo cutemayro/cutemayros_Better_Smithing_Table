@@ -53,4 +53,12 @@ Leather -> Chainmail -> Copper -> Iron -> Gold -> Diamond
 
 **I Have Added Advancment For Every Tier Of Progression To Help**
 
+## Links
+
+Modrinth (Under Review) -  *https://modrinth.com/datapack/cutemayros-better-smithing*
+
+Curseforge (Under Review) - *https://www.curseforge.com/minecraft/data-packs/cutemayros-better-smithing-table*
+
+Github - https://github.com/cutemayro/cutemayros_Better_Smithing_Table
+
 *Made With Love, By cutemayro*
