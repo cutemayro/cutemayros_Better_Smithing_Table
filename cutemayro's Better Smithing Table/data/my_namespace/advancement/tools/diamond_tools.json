@@ -1,0 +1,41 @@
+{
+  "parent": "my_namespace:tools/gold_tools",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe"
+    },
+    "title": "Shiny Gem",
+    "description": "Upgrade Any Of Your Gold Tools To Diamond",
+    "frame": "challenge"
+  },
+  "criteria":{
+    "upgrade_diamond_pickaxe": {
+        "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/tools/pickaxes/gold_to_diamond"
+        }
+    },
+    "upgrade_diamond_axe": {
+        "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/tools/axes/gold_to_diamond"
+        } 
+    },
+    "upgrade_diamond_shovel":{
+        "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/tools/shovels/gold_to_diamond"
+        }
+    },
+    "upgrade_diamond_hoe": {
+       "trigger": "recipe_crafted",
+        "conditions": {
+            "recipe_id": "my_namespace:smithing/tools/hoes/gold_to_diamond"
+        } 
+    } 
+  },
+  "requirements":[["upgrade_diamond_axe","upgrade_diamond_hoe","upgrade_diamond_pickaxe","upgrade_diamond_shovel"]],
+  "rewards": {
+    "experience": 50
+  }
+}

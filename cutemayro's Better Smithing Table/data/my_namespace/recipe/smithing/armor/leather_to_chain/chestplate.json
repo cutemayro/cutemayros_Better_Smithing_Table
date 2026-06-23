@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "chain",
+  "base": "leather_chestplate",
+  "addition": "chain",
+  "result": {
+    "id": "chainmail_chestplate"
+  }
+}

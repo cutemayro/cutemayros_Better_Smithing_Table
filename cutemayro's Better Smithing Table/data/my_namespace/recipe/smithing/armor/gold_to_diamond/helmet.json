@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "diamond",
+  "base": "golden_helmet",
+  "addition": "diamond",
+  "result": {
+    "id": "diamond_helmet"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "iron_ingot",
+  "base": "stone_sword",
+  "addition": "iron_axe",
+  "result": {
+    "id": "iron_axe"
+  }
+}

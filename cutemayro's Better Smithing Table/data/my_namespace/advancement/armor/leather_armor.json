@@ -1,0 +1,28 @@
+{
+  "parent": "my_namespace:leather_obtainment",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": "Your First Armor",
+    "description": "Obtain Any Leather Armor From Crafting",
+    "frame": "task"
+  },
+  "criteria": {
+    "has_leather_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {"items": [
+              "leather_boots",
+              "leather_chestplate",
+              "leather_helmet",
+              "leather_leggings"]}
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 30
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "my_namespace:swords/gold_sword",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": "Great Warrior",
+    "description": "Upgrade Your Gold Sword To Diamond",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "upgrade_diamond_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "my_namespace:smithing/tools/swords/gold_to_diamond"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

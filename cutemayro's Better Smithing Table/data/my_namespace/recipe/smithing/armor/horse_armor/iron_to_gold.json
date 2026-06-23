@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "iron_ingot",
+  "base": "iron_horse_armor",
+  "addition": "iron_ingot",
+  "result": {
+    "id": "golden_horse_armor"
+  }
+}

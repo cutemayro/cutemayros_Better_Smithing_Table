@@ -1,0 +1,23 @@
+{
+  "parent": "my_namespace:armor/horse/leather_horse",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_horse_armor"
+    },
+    "title": "Grayed Out",
+    "description": "Upgrade Your Leather Horse Armor To Iron",
+    "frame": "task",
+    "hidden": true
+  },
+  "criteria": {
+    "upgrade_iron_horse": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "my_namespace:smithing/armor/horse_armor/leather_to_iron"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  }
+}

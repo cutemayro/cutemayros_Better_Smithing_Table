@@ -1,0 +1,6 @@
+{
+  "values": [
+    "my_namespace:check_advancements",
+    "my_namespace:tick"
+  ]
+}

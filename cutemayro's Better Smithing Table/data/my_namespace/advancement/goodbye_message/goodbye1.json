@@ -1,0 +1,17 @@
+{
+    "parent": "my_namespace:tools/diamond_tools",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "Thank You For Playing!",
+    "description": "It Means A Lot, Thank You",
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria": {
+    "triggered_by_script": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
