@@ -55,9 +55,9 @@ Leather -> Chainmail -> Copper -> Iron -> Gold -> Diamond
 
 ## Links
 
-Modrinth (Under Review) -  *https://modrinth.com/datapack/cutemayros-better-smithing*
+Modrinth -  *https://modrinth.com/datapack/cutemayros-better-smithing*
 
-Curseforge (Under Review) - *https://www.curseforge.com/minecraft/data-packs/cutemayros-better-smithing-table*
+Curseforge - *https://www.curseforge.com/minecraft/data-packs/cutemayros-better-smithing-table*
 
 Github - https://github.com/cutemayro/cutemayros_Better_Smithing_Table
 
