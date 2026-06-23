@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "diamond",
-  "base": "golden_shovel",
-  "addition": "diamond",
-  "result": {
-    "id": "diamond_shovel"
-  }
-}

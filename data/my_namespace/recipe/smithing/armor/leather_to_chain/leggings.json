@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "chain",
-  "base": "leather_leggings",
-  "addition": "chain",
-  "result": {
-    "id": "chainmail_leggings"
-  }
-}

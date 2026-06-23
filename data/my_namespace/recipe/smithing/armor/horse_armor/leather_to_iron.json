@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "iron_ingot",
-  "base": "leather_horse_armor",
-  "addition": "iron_ingot",
-  "result": {
-    "id": "iron_horse_armor"
-  }
-}

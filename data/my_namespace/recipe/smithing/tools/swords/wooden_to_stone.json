@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": ["stone", "cobblestone"],
-  "base": "wooden_sword",
-  "addition": ["stone", "cobblestone"],
-  "result": {
-    "id": "stone_sword"
-  }
-}

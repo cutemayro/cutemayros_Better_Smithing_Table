@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "template": "gold_ingot",
-  "base": "iron_axe",
-  "addition": "gold_ingot",
-  "result": {
-    "id": "golden_axe"
-  }
-}
